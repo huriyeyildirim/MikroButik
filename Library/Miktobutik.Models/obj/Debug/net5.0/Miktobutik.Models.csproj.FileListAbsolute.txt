@@ -1,0 +1,12 @@
+C:\Users\hp\source\repos\mikroButik2\Library\Miktobutik.Models\bin\Debug\net5.0\Miktobutik.Models.deps.json
+C:\Users\hp\source\repos\mikroButik2\Library\Miktobutik.Models\bin\Debug\net5.0\Miktobutik.Models.dll
+C:\Users\hp\source\repos\mikroButik2\Library\Miktobutik.Models\bin\Debug\net5.0\ref\Miktobutik.Models.dll
+C:\Users\hp\source\repos\mikroButik2\Library\Miktobutik.Models\bin\Debug\net5.0\Miktobutik.Models.pdb
+C:\Users\hp\source\repos\mikroButik2\Library\Miktobutik.Models\obj\Debug\net5.0\Miktobutik.Models.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\mikroButik2\Library\Miktobutik.Models\obj\Debug\net5.0\Miktobutik.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\mikroButik2\Library\Miktobutik.Models\obj\Debug\net5.0\Miktobutik.Models.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\mikroButik2\Library\Miktobutik.Models\obj\Debug\net5.0\Miktobutik.Models.AssemblyInfo.cs
+C:\Users\hp\source\repos\mikroButik2\Library\Miktobutik.Models\obj\Debug\net5.0\Miktobutik.Models.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\mikroButik2\Library\Miktobutik.Models\obj\Debug\net5.0\Miktobutik.Models.dll
+C:\Users\hp\source\repos\mikroButik2\Library\Miktobutik.Models\obj\Debug\net5.0\ref\Miktobutik.Models.dll
+C:\Users\hp\source\repos\mikroButik2\Library\Miktobutik.Models\obj\Debug\net5.0\Miktobutik.Models.pdb

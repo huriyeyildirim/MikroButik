@@ -1,0 +1,65 @@
+﻿@model Miktobutik.Models.ResponseModel<List<Miktobutik.Models.EntityModel.User>>
+
+            <!-- /.row -->
+            ****<div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Kullanicilar</h3>
+
+                            <div class="card-tools">
+                                <div class="input-group input-group-sm" style="width: 150px;">
+                                    <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-default">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body table-responsive p-0">
+                            <table class="table table-hover text-nowrap">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>İsim</th>
+                                        <th>Soyisim</th>
+                                        <th>Parola</th>
+                                        <th>ParolaTekrar</th>
+                                        <th>Telefon</th>
+                                        <th>Email</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.result)
+                                    {
+                                    <tr>
+                                        <td>@item.UserID</td>
+                                        <td>@item.FirstName </td>
+                                        <td>@item.LastName</td>
+                                        <td>@item.HashedPassword</td>
+                                        <td>@item.PasswordSalt</td>
+                                        <td>@item.Phone</td>
+                                        <td>@item.Email</td>
+                                        <td>
+                                            <button class="btn btn-danger" onclick="">Sil</button>
+                                        </td>
+                                             <button class="btn btn-warning" onclick="">Güncelle</button>
+                                    </tr>
+                                    }
+
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+            </div>
+            <!-- /.row -->

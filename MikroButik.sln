@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{24EA930E-8715-4198-90D6-199FD08E50ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MikroButik.Admin", "Presentations\MikroButik.Admin\MikroButik.Admin.csproj", "{7C5BF3DD-871D-4F5F-8EB8-8F6D31C9F03C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MikroButik.Site", "Presentations\MikroButik.Site\MikroButik.Site.csproj", "{C40D12C0-EE5D-46A8-AD61-743182C3A2CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MikroButik.RestApi", "Presentations\MikroButik.RestApi\MikroButik.RestApi.csproj", "{87D23B9B-06BD-4B2C-962F-6A2CD888A4AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{38DD99D3-9E67-4E1F-98B9-16A38BFE56A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miktobutik.Models", "Library\Miktobutik.Models\Miktobutik.Models.csproj", "{0053B21D-63CE-4A2E-8F2C-44FD680C0740}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MikroButik.Data", "Library\MikroButik.Data\MikroButik.Data.csproj", "{7E6ED7D5-DB77-41C9-8069-5A3DFDC8B471}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiktroButik.Common", "Library\MiktroButik.Common\MiktroButik.Common.csproj", "{ED62777C-767F-4450-A24C-127689264265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C5BF3DD-871D-4F5F-8EB8-8F6D31C9F03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5BF3DD-871D-4F5F-8EB8-8F6D31C9F03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5BF3DD-871D-4F5F-8EB8-8F6D31C9F03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5BF3DD-871D-4F5F-8EB8-8F6D31C9F03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40D12C0-EE5D-46A8-AD61-743182C3A2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40D12C0-EE5D-46A8-AD61-743182C3A2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40D12C0-EE5D-46A8-AD61-743182C3A2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40D12C0-EE5D-46A8-AD61-743182C3A2CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D23B9B-06BD-4B2C-962F-6A2CD888A4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D23B9B-06BD-4B2C-962F-6A2CD888A4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D23B9B-06BD-4B2C-962F-6A2CD888A4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D23B9B-06BD-4B2C-962F-6A2CD888A4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0053B21D-63CE-4A2E-8F2C-44FD680C0740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0053B21D-63CE-4A2E-8F2C-44FD680C0740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0053B21D-63CE-4A2E-8F2C-44FD680C0740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0053B21D-63CE-4A2E-8F2C-44FD680C0740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6ED7D5-DB77-41C9-8069-5A3DFDC8B471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6ED7D5-DB77-41C9-8069-5A3DFDC8B471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6ED7D5-DB77-41C9-8069-5A3DFDC8B471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6ED7D5-DB77-41C9-8069-5A3DFDC8B471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED62777C-767F-4450-A24C-127689264265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED62777C-767F-4450-A24C-127689264265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED62777C-767F-4450-A24C-127689264265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED62777C-767F-4450-A24C-127689264265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C5BF3DD-871D-4F5F-8EB8-8F6D31C9F03C} = {24EA930E-8715-4198-90D6-199FD08E50ED}
+		{C40D12C0-EE5D-46A8-AD61-743182C3A2CD} = {24EA930E-8715-4198-90D6-199FD08E50ED}
+		{87D23B9B-06BD-4B2C-962F-6A2CD888A4AE} = {24EA930E-8715-4198-90D6-199FD08E50ED}
+		{0053B21D-63CE-4A2E-8F2C-44FD680C0740} = {38DD99D3-9E67-4E1F-98B9-16A38BFE56A0}
+		{7E6ED7D5-DB77-41C9-8069-5A3DFDC8B471} = {38DD99D3-9E67-4E1F-98B9-16A38BFE56A0}
+		{ED62777C-767F-4450-A24C-127689264265} = {38DD99D3-9E67-4E1F-98B9-16A38BFE56A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07E483D7-AA25-4995-B22B-4031C5326617}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/grouparea
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Library\\MikroButik.Data\\MikroButik.Data.csproj
+		SccProjectTopLevelParentUniqueName1 = MikroButik.sln
+		SccProjectName1 = Library/MikroButik.Data
+		SccLocalPath1 = Library\\MikroButik.Data
+		SccProjectUniqueName2 = Library\\Miktobutik.Models\\Miktobutik.Models.csproj
+		SccProjectTopLevelParentUniqueName2 = MikroButik.sln
+		SccProjectName2 = Library/Miktobutik.Models
+		SccLocalPath2 = Library\\Miktobutik.Models
+		SccProjectUniqueName3 = Library\\MiktroButik.Common\\MiktroButik.Common.csproj
+		SccProjectTopLevelParentUniqueName3 = MikroButik.sln
+		SccProjectName3 = Library/MiktroButik.Common
+		SccLocalPath3 = Library\\MiktroButik.Common
+		SccProjectUniqueName4 = Presentations\\MikroButik.Admin\\MikroButik.Admin.csproj
+		SccProjectTopLevelParentUniqueName4 = MikroButik.sln
+		SccProjectName4 = Presentations/MikroButik.Admin
+		SccLocalPath4 = Presentations\\MikroButik.Admin
+		SccProjectUniqueName5 = Presentations\\MikroButik.RestApi\\MikroButik.RestApi.csproj
+		SccProjectTopLevelParentUniqueName5 = MikroButik.sln
+		SccProjectName5 = Presentations/MikroButik.RestApi
+		SccLocalPath5 = Presentations\\MikroButik.RestApi
+		SccProjectUniqueName6 = Presentations\\MikroButik.Site\\MikroButik.Site.csproj
+		SccProjectTopLevelParentUniqueName6 = MikroButik.sln
+		SccProjectName6 = Presentations/MikroButik.Site
+		SccLocalPath6 = Presentations\\MikroButik.Site
+	EndGlobalSection
+EndGlobal

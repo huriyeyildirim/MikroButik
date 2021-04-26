@@ -1,0 +1,55 @@
+﻿@model Miktobutik.Models.ResponseModel<List<Miktobutik.Models.EntityModel.Order>>
+ <!-- /.row -->
+            ****<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Siparişler</h3>
+
+                <div class="card-tools">
+                    <div class="input-group input-group-sm" style="width: 150px;">
+                        <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-default">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover text-nowrap">
+                    <thead>
+                        <tr>
+                            <th>Sipariş ID</th>
+                            <th>Ürün ID</th>
+                            <th>Kullanıcı ID</th>
+                            <th>Sipariş Tarihi</th>
+                            <th>Sil</th>
+                            <th>Güncelle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.result)
+                        {
+                        <tr>
+                            <td>@item.OrderID</td>
+                            <td>@item.ProductID</td>
+                            <td>@item.UserID</td>
+                            <td>@item.OrderDate</td>
+                            <td><button class="btn btn-danger" onclick="">Sil</button></td>
+                            <td><button class="btn btn-warning" onclick="">Güncelle</button></td>
+                        </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+</div>
+<!-- /.row -->

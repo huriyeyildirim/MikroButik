@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9zEAnNNDD0vPGzMZT9leOrgLz0ipXL6Zoxx2FhgS+tEJydpKchJAyGoRgPRZhVljHBIObcFjht85M7CY7EPOZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\mikroButik2\\Library\\Miktobutik.Models\\Miktobutik.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.4\\microsoft.aspnetcore.http.features.5.0.4.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
